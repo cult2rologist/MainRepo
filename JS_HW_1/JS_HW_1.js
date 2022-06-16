@@ -46,7 +46,7 @@ let item_5 = item_3;
 // 21. Вывести в консоль тип данных item_6 в виде ——  “item_6 == ”  item_6,  “item_6_type == ”  item_6_type ——
 
 let item_6 = 15;
-let item_6_type = typeof (item_6);
+let item_6_type = typeof item_6;
 console.log("item_6 == " + item_6, "item_6_type == " + item_6_type);
 
 // 22. Создать переменную item_7 и в ней преобразовать item_6 в String
@@ -55,7 +55,7 @@ console.log("item_6 == " + item_6, "item_6_type == " + item_6_type);
 // 25. Вывести в консоль тип данных item_7 в виде ——  “item_7 == ”  item_7,  “item_7_type == ”  item_7_type ——
 
 let item_7 = String(item_6);
-let item_7_type = typeof (item_7);
+let item_7_type = typeof item_7;
 console.log("item_7 == " + item_7, "item_7_type == " + item_7_type);
 
 // 26. Создать переменную “age_1” и присвоить ей значение 10
@@ -71,11 +71,16 @@ let age_1 = 10; //для проверки в этом поле менять во
 let age_2 = 18;
 let age_3 = 60;
 if (age_1 < age_2) {
-    console.log ("You don't have access cause your age is " + age_1 + " It's less then " + age_2);
-} else if (age_1 >= age_2, age_1 < age_3) {
-    console.log ("Welcome !");
+  console.log(
+    "You don't have access cause your age is " +
+      age_1 +
+      " It's less then " +
+      age_2
+  );
+} else if ((age_1 >= age_2, age_1 < age_3)) {
+  console.log("Welcome !");
 } else if (age_1 > age_3) {
-    console.log ("Keep calm and look Culture channel");
+  console.log("Keep calm and look Culture channel");
 } else {
-    console.log ("Technical work"); // вывод работает при изменённом значении age_1 и закомменченными else if
+  console.log("Technical work"); // вывод работает при изменённом значении age_1 и закомменченными else if
 }
