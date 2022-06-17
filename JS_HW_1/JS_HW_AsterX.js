@@ -9,19 +9,19 @@ const checkAge = function (age1, age2, age3) {
     (el) => typeof el === "number" && !isNaN(el)
   );
   if (!isNumbers.every(Boolean)) {
-    return "some args not a number";
+    alert("some args not a number");
   }
   const [a1, a2, a3] = numberedArgs;
   if (a1 < a2) {
-    return (
+    alert(
       "You don't have access cause your age is " + a1 + " It's less then " + a2
     );
   } else if ((a1 >= a2, a1 < a3)) {
-    return "Welcome !";
+    alert("Welcome !");
   } else if (a1 > a3) {
-    return "Keep calm and look Culture channel";
+    alert("Keep calm and look Culture channel");
   } else {
-    return "Technical work";
+    alert("Technical work");
   }
 };
 const arg1 = prompt("Input first age");
