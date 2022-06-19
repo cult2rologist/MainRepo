@@ -1,84 +1,41 @@
-// // console.log(false || true);
-// // console.log(true || false || true);
-// // console.log(false || true || false);
-// // console.log(false && true && false);
-// // console.log(true && false || true);
-// // console.log(true && false || true && true);
+// 1. Написать скриптик, который сосчитает и выведет результат от возведения 2 в степень 10, начиная со степени 1
+// const base = 2;
+// powArr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// for (i = 0; i < powArr.length; i++) {
+//   result = Math.pow(base, powArr[i]);
+//   console.log(result);
+// }
 
-// // if (false && true || false) {
-// //     console.log('1');
-// // } else {
-// //     console.log('2');
-// // }
+// 1*. Преобразовать 1 задачу в функцию, принимающую на вход степень, в которую будет возводиться число 2
+// function pow(any) {
+//   input = prompt("Enter a number");
+//   Math.pow(base, any);
+// }
+// console.log(pow(7));
 
-// // let dogshow = true;
-// // let age = 18;
-// // let money = 900;
-// // let dog = false;
+// 2. Написать скрипт, который выведет 5 строк в консоль таким образом, чтобы в первой строчке выводилось :), во второй :):) и так далее
+const beast = ":)";
+for (i = 1; i <= 5; i++) {
+   }
+console.log(beast);
+// 2*. Преобразовать 2 задачу в функцию, принимающую на вход строку, которая и будет выводиться в консоль (как в условии смайлик), а также количество строк для вывода
+// e.g. function printSmile(stroka, numberOfRows)
 
-// // if (age >= 18 && money >= 1000 && dog) {
-// //   console.log("Get ticket");
-// // } else if (age < 18) {
-// //   console.log("Early");
-// // } else if (money < 1000) {
-// //   console.log("Keep calm and work harder");
-// // } else if (!dog) {
-// //   console.log("Get cat");
-// // }
-// //  else {
-// //   console.log("Let it be");
-// // }
+// 3**.  Написать функцию, которая принимает на вход слово. Задача функции посчитать и вывести в консоль, сколько в слове гласных, и сколько согласных букв.
+// В консоли: Слово (word) состоит из (число) гласных и (число) согласных букв
 
-// // if (age >= 18 && money >= 1000 && dog) {
-// //   console.log("Get ticket");
-// // } else {
-// //   if (age < 18) {
-// //     console.log("Early");
-// //   }
-// //   if (money < 1000) {
-// //     console.log("Keep calm and work harder");
-// //   }
-// //   if (!dog) {
-// //     console.log("Get cat");
-// //   }
-// // }
+// function getWordStructure(word) {
 
-// // switch (dogshow) {
-// //   case age >= 18:
-// //     console.log("Time to win!");
-// //     break;
-// //   case money >= 1000:
-// //     console.log("Rich");
-// //     break;
-// // }
+// }
+// console.log(getWordStructure("case"));
+// console.log(getWordStructure("Case"));
+// console.log(getWordStructure("Check-list"));
 
-// count = 0;
-// // while (count < 10) {
-// //   console.log(count, "Win!!!");
-// //   if (count % 2 == 0) {
-// //     console.log(count, "even");
-// //   }
-// //   count++;
-// // }
-
-// // for (let i = 0; i < 10; i++) {
-// //   console.log(i, "Win!!");
-// // }
-
-// // mm = ["Alla", "Natalia", "Milana", "Anatoliy", "Dmitriy"];
-// // // console.log (mm.length);
-// // for (let i = 0; i < mm.length + 1; i++) {
-// //   console.log(i, mm[i], "Win!!");
-// // }
-
-// // mm = ["Alla", "Natalia", "Milana", "Anatoliy", "Dmitriy"];
-// // // console.log (mm.length);
-// // for (let i = 10; i > mm.length; i--) {
-// //   console.log(i, mm[i], "Win!!");
-// // }
-
-mm = ["Alla", "Natalia", "Milana", "Anatoliy", "Dmitriy"];
-// console.log (mm.length);
-for (let i = 0; i < mm.length; ++i) {
-  console.log(i, mm[i], "Win!!");
-}
+// 4**. Написать функцию, которая проверяет, является ли слово палиндромом. Проверки: 'abba', 'Abba'
+// function isPalindrom(word) {
+//   lowerChar = word.toLowerCase();
+//   checkPalindrome = lowerChar.split("").reverse().join("");
+//   return lowerChar === checkPalindrome;
+// }
+// console.log(isPalindrom("abba"));
+// console.log(isPalindrom("Abba"));
