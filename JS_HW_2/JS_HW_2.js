@@ -7,7 +7,7 @@ for (const pow of [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]) {
 function powMe(pow) {
   console.log(Math.pow(2, pow));
 }
-powMe(10);
+powMe(25);
 
 // 2. Написать скрипт, который выведет 5 строк в консоль таким образом, чтобы в первой строчке выводилось :), во второй :):) и так далее
 for (let i = 1; i <= 5; i++) {
@@ -36,17 +36,7 @@ function getWordStructure(word) {
       consCount++;
     }
   }
-  return (
-    "A word " +
-    '"' +
-    word +
-    '"' +
-    " consist of " +
-    vowCount +
-    " Vowel and " +
-    consCount +
-    " Consonant letters."
-  );
+  return `A word ${word} consist of ${vowCount} Vowel and ${consCount} Consonant letters.`;
 }
 console.log(getWordStructure("Bazooka"));
 console.log(getWordStructure("Case"));
