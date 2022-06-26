@@ -79,12 +79,10 @@ const users = [
     registrationDate: "12.10.2021",
   },
 ];
-console.log(users.find((el) => el.registrationDate === "09.10.2021"));
-
-// let regD = users.filter(function(user){
-//     return user.registrationDate == "09.10.2021";
-// })
-// console.log(regD);
+function findCards(dates) {
+  return users.filter((user) => dates.includes(user.registrationDate));
+}
+console.log(findCards(["10.10.2021", "09.10.2021"]));
 
 // 2* Откройте в VSCode task2.json файл. Скопируйте из него JSONку, вставьте в свой код (присвоив в переменную).
 // Дан массив объектов. Каждый объект является идентификационной карточкой человека.

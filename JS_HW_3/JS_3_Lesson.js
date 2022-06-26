@@ -35,17 +35,17 @@
 // let summ = (n1, n2) => {console.log(`Summ = ${n1 + n2}`)}
 // summ (t1, t2);
 
-function yolochka_pro(){}
+// function yolochka_pro(){}
 
-yolochka_pro.prototype.method_1 = function(){
-    console.log('method_1');
-}
+// yolochka_pro.prototype.method_1 = function(){
+//     console.log('method_1');
+// }
 
-yolochka_pro.prototype.method_2 = function(tt1, tt2){
-    console.log(`method_2 = ${tt1 + tt2}`);
-}
+// yolochka_pro.prototype.method_2 = function(tt1, tt2){
+//     console.log(`method_2 = ${tt1 + tt2}`);
+// }
 
-let wood = new yolochka_pro()
+// let wood = new yolochka_pro()
 
-wood.method_1();
-wood.method_2(10, 20);
+// wood.method_1();
+// wood.method_2(10, 20);
