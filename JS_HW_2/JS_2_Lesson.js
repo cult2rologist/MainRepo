@@ -77,8 +77,8 @@
 // //   console.log(i, mm[i], "Win!!");
 // // }
 
-mm = ["Alla", "Natalia", "Milana", "Anatoliy", "Dmitriy"];
-// console.log (mm.length);
-for (let i = 0; i < mm.length; ++i) {
-  console.log(i, mm[i], "Win!!");
-}
+// mm = ["Alla", "Natalia", "Milana", "Anatoliy", "Dmitriy"];
+// // console.log (mm.length);
+// for (let i = 0; i < mm.length; ++i) {
+//   console.log(i, mm[i], "Win!!");
+// }
