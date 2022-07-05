@@ -1,0 +1,19 @@
+{
+  "name": "firstpkg",
+  "version": "1.0.0",
+  "description": "My very first pkg.json ever",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run unit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cult2rologist/MainRepo.git#main"
+  },
+  "author": "Ilya Mckay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cult2rologist/MainRepo/issues"
+  },
+  "homepage": "https://github.com/cult2rologist/MainRepo/tree/main#readme"
+}
