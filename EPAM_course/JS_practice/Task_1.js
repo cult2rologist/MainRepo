@@ -1,3 +1,4 @@
+//Practical task 1
 //Conditional statements and Data types Practical task
 const boolean = true;
 const string = "99";
