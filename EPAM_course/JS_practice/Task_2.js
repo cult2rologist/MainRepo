@@ -10,8 +10,10 @@ car.color = "green";
 console.log(`Now your car color is changed to ${car.color}`);
 
 // Add the power property to the car object, which is a function and displays the engine power to the console
-powerProp = (hp) => {return `Your car has ${(car.power = hp)} horsepower`;}
-console.log(powerProp(333));
+// powerProp = (hp) => {return `Your car has ${(car.power = hp)} horsepower`;}
+// console.log(powerProp(333));
+car.power = (hp) => {return `Your car has ${(hp)} horsepower`;}
+console.log(car.power(333));
 
 // Pears and apples are accepted to the warehouse, write a function that returns the result of adding the number of accepted pears and apples
 function addingFruits(pears, apples) {
