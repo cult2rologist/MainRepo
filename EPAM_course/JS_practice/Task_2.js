@@ -36,7 +36,7 @@ argTypeDeterm(true);
 
 // Write a function that determines whether a number is prime or not
 function isPrime(num) {
-  for (var i = 2; i < num; i++) {
+  for (let i = 2; i < num; i++) {
     if (num % i === 0) {
       return `${false} - the number you have entered is not a prime number`;
     }
